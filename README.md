@@ -14,4 +14,4 @@ esc key, then :x
 
 then run:
 
-source .bashrc
+. .bashrc
