@@ -18,3 +18,6 @@ stty -ixon
 
 # this is for mv hidden files as well https://askubuntu.com/a/259386/1078877
 shopt -s dotglob
+
+# remove sound https://superuser.com/a/1331067/1080263
+bind 'set bell-style none'
