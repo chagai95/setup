@@ -11,3 +11,9 @@ PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; h
 
 # why not save everything?
 export HISTSIZE=100000
+
+# this is for reverse ctrl r
+stty -ixon
+
+# this is for mv hidden files as well https://askubuntu.com/a/259386/1078877
+shopt -s dotglob
