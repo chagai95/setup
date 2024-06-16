@@ -10,7 +10,8 @@ shopt -s histappend
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # why not save everything?
-export HISTSIZE=100000
+HISTSIZE=999999
+HISTFILESIZE=999999
 
 # this is for reverse ctrl r
 stty -ixon
